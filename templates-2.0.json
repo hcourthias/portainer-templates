@@ -14,13 +14,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -40,7 +40,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/adguardhome-sync/config"
+          "bind": "/docker/adguardhome-sync/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -58,13 +58,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -90,23 +90,23 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/airsonic-advanced/config"
+          "bind": "/docker/airsonic-advanced/config"
         },
         {
           "container": "/music",
-          "bind": "/Users/hugo/docker/airsonic-advanced/music"
+          "bind": "/docker/airsonic-advanced/music"
         },
         {
           "container": "/playlists",
-          "bind": "/Users/hugo/docker/airsonic-advanced/playlists"
+          "bind": "/docker/airsonic-advanced/playlists"
         },
         {
           "container": "/podcasts",
-          "bind": "/Users/hugo/docker/airsonic-advanced/podcasts"
+          "bind": "/docker/airsonic-advanced/podcasts"
         },
         {
           "container": "/media",
-          "bind": "/Users/hugo/docker/airsonic-advanced/media"
+          "bind": "/docker/airsonic-advanced/media"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -125,13 +125,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -145,7 +145,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/apprise-api/config"
+          "bind": "/docker/apprise-api/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -163,13 +163,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -183,7 +183,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/audacity/config"
+          "bind": "/docker/audacity/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -201,13 +201,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -227,7 +227,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/babybuddy/config"
+          "bind": "/docker/babybuddy/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -246,13 +246,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -266,15 +266,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/bazarr/config"
+          "bind": "/docker/bazarr/config"
         },
         {
           "container": "/movies",
-          "bind": "/Users/hugo/docker/bazarr/movies"
+          "bind": "/docker/bazarr/movies"
         },
         {
           "container": "/tv",
-          "bind": "/Users/hugo/docker/bazarr/tv"
+          "bind": "/docker/bazarr/tv"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -293,13 +293,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -313,15 +313,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/beets/config"
+          "bind": "/docker/beets/config"
         },
         {
           "container": "/music",
-          "bind": "/Users/hugo/docker/beets/music"
+          "bind": "/docker/beets/music"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/beets/downloads"
+          "bind": "/docker/beets/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -339,13 +339,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -371,7 +371,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/blender/config"
+          "bind": "/docker/blender/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -390,13 +390,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -416,7 +416,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/boinc/config"
+          "bind": "/docker/boinc/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -435,13 +435,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -461,19 +461,19 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/booksonic-air/config"
+          "bind": "/docker/booksonic-air/config"
         },
         {
           "container": "/audiobooks",
-          "bind": "/Users/hugo/docker/booksonic-air/audiobooks"
+          "bind": "/docker/booksonic-air/audiobooks"
         },
         {
           "container": "/podcasts",
-          "bind": "/Users/hugo/docker/booksonic-air/podcasts"
+          "bind": "/docker/booksonic-air/podcasts"
         },
         {
           "container": "/othermedia",
-          "bind": "/Users/hugo/docker/booksonic-air/othermedia"
+          "bind": "/docker/booksonic-air/othermedia"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -492,13 +492,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -548,7 +548,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/bookstack/config"
+          "bind": "/docker/bookstack/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -566,13 +566,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -586,7 +586,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/budge/config"
+          "bind": "/docker/budge/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -605,13 +605,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -637,7 +637,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/calibre/config"
+          "bind": "/docker/calibre/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -656,13 +656,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -688,11 +688,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/calibre-web/config"
+          "bind": "/docker/calibre-web/config"
         },
         {
           "container": "/books",
-          "bind": "/Users/hugo/docker/calibre-web/books"
+          "bind": "/docker/calibre-web/books"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -710,13 +710,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -736,7 +736,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/changedetection.io/config"
+          "bind": "/docker/changedetection.io/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -754,13 +754,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -774,7 +774,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/ci/config"
+          "bind": "/docker/ci/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -793,13 +793,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -849,7 +849,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/code-server/config"
+          "bind": "/docker/code-server/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -868,13 +868,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -888,11 +888,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/cops/config"
+          "bind": "/docker/cops/config"
         },
         {
           "container": "/books",
-          "bind": "/Users/hugo/docker/cops/books"
+          "bind": "/docker/cops/books"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -912,13 +912,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -931,11 +931,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/daapd/config"
+          "bind": "/docker/daapd/config"
         },
         {
           "container": "/music",
-          "bind": "/Users/hugo/docker/daapd/music"
+          "bind": "/docker/daapd/music"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -954,13 +954,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -974,7 +974,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/darktable/config"
+          "bind": "/docker/darktable/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -993,13 +993,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1013,11 +1013,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/davos/config"
+          "bind": "/docker/davos/config"
         },
         {
           "container": "/download",
-          "bind": "/Users/hugo/docker/davos/download"
+          "bind": "/docker/davos/download"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1036,13 +1036,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1055,7 +1055,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/ddclient/config"
+          "bind": "/docker/ddclient/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1074,13 +1074,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1100,11 +1100,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/deluge/config"
+          "bind": "/docker/deluge/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/deluge/downloads"
+          "bind": "/docker/deluge/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1123,13 +1123,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1155,7 +1155,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/digikam/config"
+          "bind": "/docker/digikam/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1174,13 +1174,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1194,7 +1194,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/dillinger/config"
+          "bind": "/docker/dillinger/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1213,13 +1213,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1257,11 +1257,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/diskover/config"
+          "bind": "/docker/diskover/config"
         },
         {
           "container": "/data",
-          "bind": "/Users/hugo/docker/diskover/data"
+          "bind": "/docker/diskover/data"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1280,13 +1280,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1300,7 +1300,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/dokuwiki/config"
+          "bind": "/docker/dokuwiki/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1319,13 +1319,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1351,7 +1351,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/domoticz/config"
+          "bind": "/docker/domoticz/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1369,13 +1369,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1496,7 +1496,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/doplarr/config"
+          "bind": "/docker/doplarr/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1515,13 +1515,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1535,11 +1535,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/doublecommander/config"
+          "bind": "/docker/doublecommander/config"
         },
         {
           "container": "/data",
-          "bind": "/Users/hugo/docker/doublecommander/data"
+          "bind": "/docker/doublecommander/data"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1557,13 +1557,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1594,7 +1594,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/duckdns/config"
+          "bind": "/docker/duckdns/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1612,13 +1612,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1638,15 +1638,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/duplicati/config"
+          "bind": "/docker/duplicati/config"
         },
         {
           "container": "/backups",
-          "bind": "/Users/hugo/docker/duplicati/backups"
+          "bind": "/docker/duplicati/backups"
         },
         {
           "container": "/source",
-          "bind": "/Users/hugo/docker/duplicati/source"
+          "bind": "/docker/duplicati/source"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1665,13 +1665,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1685,15 +1685,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/emby/config"
+          "bind": "/docker/emby/config"
         },
         {
           "container": "/data/tvshows",
-          "bind": "/Users/hugo/docker/emby/data/tvshows"
+          "bind": "/docker/emby/data/tvshows"
         },
         {
           "container": "/data/movies",
-          "bind": "/Users/hugo/docker/emby/data/movies"
+          "bind": "/docker/emby/data/movies"
         },
         {
           "container": "/opt/vc/lib",
@@ -1715,13 +1715,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1735,7 +1735,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/embystat/config"
+          "bind": "/docker/embystat/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1753,13 +1753,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1779,11 +1779,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/emulatorjs/config"
+          "bind": "/docker/emulatorjs/config"
         },
         {
           "container": "/data",
-          "bind": "/Users/hugo/docker/emulatorjs/data"
+          "bind": "/docker/emulatorjs/data"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1801,13 +1801,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1851,7 +1851,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/endlessh/config"
+          "bind": "/docker/endlessh/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1870,13 +1870,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -1890,79 +1890,79 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/fail2ban/config"
+          "bind": "/docker/fail2ban/config"
         },
         {
           "container": "/var/log:ro",
-          "bind": "/Users/hugo/docker/fail2ban/var/log:ro"
+          "bind": "/docker/fail2ban/var/log:ro"
         },
         {
           "container": "/remotelogs/airsonic:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/airsonic:ro"
+          "bind": "/docker/fail2ban/remotelogs/airsonic:ro"
         },
         {
           "container": "/remotelogs/apache2:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/apache2:ro"
+          "bind": "/docker/fail2ban/remotelogs/apache2:ro"
         },
         {
           "container": "/remotelogs/authelia:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/authelia:ro"
+          "bind": "/docker/fail2ban/remotelogs/authelia:ro"
         },
         {
           "container": "/remotelogs/emby:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/emby:ro"
+          "bind": "/docker/fail2ban/remotelogs/emby:ro"
         },
         {
           "container": "/remotelogs/filebrowser:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/filebrowser:ro"
+          "bind": "/docker/fail2ban/remotelogs/filebrowser:ro"
         },
         {
           "container": "/remotelogs/homeassistant:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/homeassistant:ro"
+          "bind": "/docker/fail2ban/remotelogs/homeassistant:ro"
         },
         {
           "container": "/remotelogs/lighttpd:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/lighttpd:ro"
+          "bind": "/docker/fail2ban/remotelogs/lighttpd:ro"
         },
         {
           "container": "/remotelogs/nextcloud:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/nextcloud:ro"
+          "bind": "/docker/fail2ban/remotelogs/nextcloud:ro"
         },
         {
           "container": "/remotelogs/nginx:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/nginx:ro"
+          "bind": "/docker/fail2ban/remotelogs/nginx:ro"
         },
         {
           "container": "/remotelogs/nzbget:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/nzbget:ro"
+          "bind": "/docker/fail2ban/remotelogs/nzbget:ro"
         },
         {
           "container": "/remotelogs/overseerr:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/overseerr:ro"
+          "bind": "/docker/fail2ban/remotelogs/overseerr:ro"
         },
         {
           "container": "/remotelogs/prowlarr:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/prowlarr:ro"
+          "bind": "/docker/fail2ban/remotelogs/prowlarr:ro"
         },
         {
           "container": "/remotelogs/radarr:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/radarr:ro"
+          "bind": "/docker/fail2ban/remotelogs/radarr:ro"
         },
         {
           "container": "/remotelogs/sabnzbd:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/sabnzbd:ro"
+          "bind": "/docker/fail2ban/remotelogs/sabnzbd:ro"
         },
         {
           "container": "/remotelogs/sonarr:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/sonarr:ro"
+          "bind": "/docker/fail2ban/remotelogs/sonarr:ro"
         },
         {
           "container": "/remotelogs/unificontroller:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/unificontroller:ro"
+          "bind": "/docker/fail2ban/remotelogs/unificontroller:ro"
         },
         {
           "container": "/remotelogs/vaultwarden:ro",
-          "bind": "/Users/hugo/docker/fail2ban/remotelogs/vaultwarden:ro"
+          "bind": "/docker/fail2ban/remotelogs/vaultwarden:ro"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -1980,13 +1980,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2005,7 +2005,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/feed2toot/config"
+          "bind": "/docker/feed2toot/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2023,13 +2023,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2043,7 +2043,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/ffmpeg/config"
+          "bind": "/docker/ffmpeg/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2061,13 +2061,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2081,7 +2081,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/filezilla/config"
+          "bind": "/docker/filezilla/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2099,13 +2099,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2119,7 +2119,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/firefox/config"
+          "bind": "/docker/firefox/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2137,13 +2137,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2187,7 +2187,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/fleet/config"
+          "bind": "/docker/fleet/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2205,13 +2205,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2225,7 +2225,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/foldingathome/config"
+          "bind": "/docker/foldingathome/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2243,13 +2243,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2263,7 +2263,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/freshrss/config"
+          "bind": "/docker/freshrss/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2282,13 +2282,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2302,7 +2302,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/grav/config"
+          "bind": "/docker/grav/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2320,13 +2320,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2340,7 +2340,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/grocy/config"
+          "bind": "/docker/grocy/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2358,13 +2358,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2384,7 +2384,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/habridge/config"
+          "bind": "/docker/habridge/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2402,13 +2402,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2422,15 +2422,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/headphones/config"
+          "bind": "/docker/headphones/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/headphones/downloads"
+          "bind": "/docker/headphones/downloads"
         },
         {
           "container": "/music",
-          "bind": "/Users/hugo/docker/headphones/music"
+          "bind": "/docker/headphones/music"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2448,13 +2448,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2576,7 +2576,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/healthchecks/config"
+          "bind": "/docker/healthchecks/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2595,13 +2595,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2675,7 +2675,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/hedgedoc/config"
+          "bind": "/docker/hedgedoc/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2693,13 +2693,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2713,7 +2713,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/heimdall/config"
+          "bind": "/docker/heimdall/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2733,13 +2733,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2753,7 +2753,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/homeassistant/config"
+          "bind": "/docker/homeassistant/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2771,13 +2771,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2791,7 +2791,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/htpcmanager/config"
+          "bind": "/docker/htpcmanager/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2809,13 +2809,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2841,11 +2841,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/jackett/config"
+          "bind": "/docker/jackett/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/jackett/downloads"
+          "bind": "/docker/jackett/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2863,13 +2863,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2894,15 +2894,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/jellyfin/config"
+          "bind": "/docker/jellyfin/config"
         },
         {
           "container": "/data/tvshows",
-          "bind": "/Users/hugo/docker/jellyfin/data/tvshows"
+          "bind": "/docker/jellyfin/data/tvshows"
         },
         {
           "container": "/data/movies",
-          "bind": "/Users/hugo/docker/jellyfin/data/movies"
+          "bind": "/docker/jellyfin/data/movies"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2920,13 +2920,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -2940,7 +2940,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/jenkins-builder/config"
+          "bind": "/docker/jenkins-builder/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -2979,11 +2979,11 @@
       "volumes": [
         {
           "container": "/opt",
-          "bind": "/Users/hugo/docker/kasm/opt"
+          "bind": "/docker/kasm/opt"
         },
         {
           "container": "/profiles",
-          "bind": "/Users/hugo/docker/kasm/profiles"
+          "bind": "/docker/kasm/profiles"
         },
         {
           "container": "/dev/input",
@@ -3009,13 +3009,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3041,7 +3041,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/kdenlive/config"
+          "bind": "/docker/kdenlive/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3059,13 +3059,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3085,15 +3085,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/lazylibrarian/config"
+          "bind": "/docker/lazylibrarian/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/lazylibrarian/downloads"
+          "bind": "/docker/lazylibrarian/downloads"
         },
         {
           "container": "/books",
-          "bind": "/Users/hugo/docker/lazylibrarian/books"
+          "bind": "/docker/lazylibrarian/books"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3144,13 +3144,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3164,7 +3164,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/libreoffice/config"
+          "bind": "/docker/libreoffice/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3182,13 +3182,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3250,7 +3250,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/librespeed/config"
+          "bind": "/docker/librespeed/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3268,13 +3268,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3288,15 +3288,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/lidarr/config"
+          "bind": "/docker/lidarr/config"
         },
         {
           "container": "/music",
-          "bind": "/Users/hugo/docker/lidarr/music"
+          "bind": "/docker/lidarr/music"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/lidarr/downloads"
+          "bind": "/docker/lidarr/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3314,13 +3314,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3334,7 +3334,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/limnoria/config"
+          "bind": "/docker/limnoria/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3352,13 +3352,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3402,11 +3402,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/lychee/config"
+          "bind": "/docker/lychee/config"
         },
         {
           "container": "/pictures",
-          "bind": "/Users/hugo/docker/lychee/pictures"
+          "bind": "/docker/lychee/pictures"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3424,13 +3424,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3474,7 +3474,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/mariadb/config"
+          "bind": "/docker/mariadb/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3493,13 +3493,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3711,7 +3711,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/mastodon/config"
+          "bind": "/docker/mastodon/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3729,13 +3729,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3749,15 +3749,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/medusa/config"
+          "bind": "/docker/medusa/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/medusa/downloads"
+          "bind": "/docker/medusa/downloads"
         },
         {
           "container": "/tv",
-          "bind": "/Users/hugo/docker/medusa/tv"
+          "bind": "/docker/medusa/tv"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3775,13 +3775,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3801,7 +3801,7 @@
       "volumes": [
         {
           "container": "/config/.minetest",
-          "bind": "/Users/hugo/docker/minetest/config/.minetest"
+          "bind": "/docker/minetest/config/.minetest"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3819,13 +3819,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3845,7 +3845,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/minisatip/config"
+          "bind": "/docker/minisatip/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3863,13 +3863,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3883,11 +3883,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/mstream/config"
+          "bind": "/docker/mstream/config"
         },
         {
           "container": "/music",
-          "bind": "/Users/hugo/docker/mstream/music"
+          "bind": "/docker/mstream/music"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3905,13 +3905,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3925,15 +3925,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/mylar3/config"
+          "bind": "/docker/mylar3/config"
         },
         {
           "container": "/comics",
-          "bind": "/Users/hugo/docker/mylar3/comics"
+          "bind": "/docker/mylar3/comics"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/mylar3/downloads"
+          "bind": "/docker/mylar3/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3951,13 +3951,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -3971,7 +3971,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/mysql-workbench/config"
+          "bind": "/docker/mysql-workbench/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -3989,13 +3989,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4051,7 +4051,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/nano/config"
+          "bind": "/docker/nano/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4081,13 +4081,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4119,11 +4119,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/netbootxyz/config"
+          "bind": "/docker/netbootxyz/config"
         },
         {
           "container": "/assets",
-          "bind": "/Users/hugo/docker/netbootxyz/assets"
+          "bind": "/docker/netbootxyz/assets"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4141,13 +4141,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4281,7 +4281,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/netbox/config"
+          "bind": "/docker/netbox/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4299,13 +4299,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4319,11 +4319,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/nextcloud/config"
+          "bind": "/docker/nextcloud/config"
         },
         {
           "container": "/data",
-          "bind": "/Users/hugo/docker/nextcloud/data"
+          "bind": "/docker/nextcloud/data"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4341,13 +4341,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4361,7 +4361,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/nginx/config"
+          "bind": "/docker/nginx/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4379,13 +4379,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4399,7 +4399,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/ngircd/config"
+          "bind": "/docker/ngircd/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4417,13 +4417,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4449,7 +4449,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/nntp2nntp/config"
+          "bind": "/docker/nntp2nntp/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4467,13 +4467,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4487,11 +4487,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/nzbhydra2/config"
+          "bind": "/docker/nzbhydra2/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/nzbhydra2/downloads"
+          "bind": "/docker/nzbhydra2/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4509,13 +4509,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4535,7 +4535,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/ombi/config"
+          "bind": "/docker/ombi/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4553,13 +4553,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4627,7 +4627,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/openssh-server/config"
+          "bind": "/docker/openssh-server/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4645,13 +4645,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4689,7 +4689,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/openvscode-server/config"
+          "bind": "/docker/openvscode-server/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4707,13 +4707,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4727,7 +4727,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/oscam/config"
+          "bind": "/docker/oscam/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4746,13 +4746,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4766,7 +4766,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/overseerr/config"
+          "bind": "/docker/overseerr/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4784,13 +4784,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4835,13 +4835,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4867,7 +4867,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/phpmyadmin/config"
+          "bind": "/docker/phpmyadmin/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4885,13 +4885,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4905,7 +4905,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/pidgin/config"
+          "bind": "/docker/pidgin/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4923,13 +4923,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4943,11 +4943,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/piwigo/config"
+          "bind": "/docker/piwigo/config"
         },
         {
           "container": "/gallery",
-          "bind": "/Users/hugo/docker/piwigo/gallery"
+          "bind": "/docker/piwigo/gallery"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -4966,13 +4966,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -4997,15 +4997,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/plex/config"
+          "bind": "/docker/plex/config"
         },
         {
           "container": "/tv",
-          "bind": "/Users/hugo/docker/plex/tv"
+          "bind": "/docker/plex/tv"
         },
         {
           "container": "/movies",
-          "bind": "/Users/hugo/docker/plex/movies"
+          "bind": "/docker/plex/movies"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5024,13 +5024,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5073,7 +5073,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/plex-meta-manager/config"
+          "bind": "/docker/plex-meta-manager/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5091,13 +5091,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5117,11 +5117,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/projectsend/config"
+          "bind": "/docker/projectsend/config"
         },
         {
           "container": "/data",
-          "bind": "/Users/hugo/docker/projectsend/data"
+          "bind": "/docker/projectsend/data"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5139,13 +5139,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5159,7 +5159,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/prowlarr/config"
+          "bind": "/docker/prowlarr/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5177,13 +5177,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5203,7 +5203,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/pwndrop/config"
+          "bind": "/docker/pwndrop/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5221,13 +5221,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5253,7 +5253,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/pydio-cells/config"
+          "bind": "/docker/pydio-cells/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5271,13 +5271,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5291,11 +5291,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/pyload-ng/config"
+          "bind": "/docker/pyload-ng/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/pyload-ng/downloads"
+          "bind": "/docker/pyload-ng/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5313,13 +5313,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5351,11 +5351,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/pylon/config"
+          "bind": "/docker/pylon/config"
         },
         {
           "container": "/code",
-          "bind": "/Users/hugo/docker/pylon/code"
+          "bind": "/docker/pylon/code"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5373,13 +5373,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5399,11 +5399,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/qbittorrent/config"
+          "bind": "/docker/qbittorrent/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/qbittorrent/downloads"
+          "bind": "/docker/qbittorrent/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5421,13 +5421,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5441,11 +5441,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/qdirstat/config"
+          "bind": "/docker/qdirstat/config"
         },
         {
           "container": "/data",
-          "bind": "/Users/hugo/docker/qdirstat/data"
+          "bind": "/docker/qdirstat/data"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5463,13 +5463,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5489,7 +5489,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/quassel-core/config"
+          "bind": "/docker/quassel-core/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5507,13 +5507,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5545,7 +5545,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/quassel-web/config"
+          "bind": "/docker/quassel-web/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5563,13 +5563,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5583,15 +5583,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/radarr/config"
+          "bind": "/docker/radarr/config"
         },
         {
           "container": "/movies",
-          "bind": "/Users/hugo/docker/radarr/movies"
+          "bind": "/docker/radarr/movies"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/radarr/downloads"
+          "bind": "/docker/radarr/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5609,13 +5609,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5629,7 +5629,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/raneto/config"
+          "bind": "/docker/raneto/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5647,13 +5647,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5671,7 +5671,7 @@
         },
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/rdesktop/config"
+          "bind": "/docker/rdesktop/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5689,13 +5689,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5709,7 +5709,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/readme-sync/config"
+          "bind": "/docker/readme-sync/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5727,13 +5727,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5747,7 +5747,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/remmina/config"
+          "bind": "/docker/remmina/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5766,13 +5766,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5786,7 +5786,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/requestrr/config"
+          "bind": "/docker/requestrr/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5804,13 +5804,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5824,15 +5824,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/resilio-sync/config"
+          "bind": "/docker/resilio-sync/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/resilio-sync/downloads"
+          "bind": "/docker/resilio-sync/downloads"
         },
         {
           "container": "/sync",
-          "bind": "/Users/hugo/docker/resilio-sync/sync"
+          "bind": "/docker/resilio-sync/sync"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5850,13 +5850,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5870,15 +5870,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/rsnapshot/config"
+          "bind": "/docker/rsnapshot/config"
         },
         {
           "container": "/.snapshots",
-          "bind": "/Users/hugo/docker/rsnapshot/.snapshots"
+          "bind": "/docker/rsnapshot/.snapshots"
         },
         {
           "container": "/data",
-          "bind": "/Users/hugo/docker/rsnapshot/data"
+          "bind": "/docker/rsnapshot/data"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5896,13 +5896,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5916,15 +5916,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/sabnzbd/config"
+          "bind": "/docker/sabnzbd/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/sabnzbd/downloads"
+          "bind": "/docker/sabnzbd/downloads"
         },
         {
           "container": "/incomplete-downloads",
-          "bind": "/Users/hugo/docker/sabnzbd/incomplete-downloads"
+          "bind": "/docker/sabnzbd/incomplete-downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5942,13 +5942,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -5962,15 +5962,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/sickchill/config"
+          "bind": "/docker/sickchill/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/sickchill/downloads"
+          "bind": "/docker/sickchill/downloads"
         },
         {
           "container": "/tv",
-          "bind": "/Users/hugo/docker/sickchill/tv"
+          "bind": "/docker/sickchill/tv"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -5988,13 +5988,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6008,15 +6008,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/sickgear/config"
+          "bind": "/docker/sickgear/config"
         },
         {
           "container": "/tv",
-          "bind": "/Users/hugo/docker/sickgear/tv"
+          "bind": "/docker/sickgear/tv"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/sickgear/downloads"
+          "bind": "/docker/sickgear/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6034,13 +6034,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6054,11 +6054,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/smokeping/config"
+          "bind": "/docker/smokeping/config"
         },
         {
           "container": "/data",
-          "bind": "/Users/hugo/docker/smokeping/data"
+          "bind": "/docker/smokeping/data"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6076,13 +6076,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6096,7 +6096,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/snapdrop/config"
+          "bind": "/docker/snapdrop/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6114,13 +6114,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6170,7 +6170,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/snipe-it/config"
+          "bind": "/docker/snipe-it/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6189,13 +6189,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6209,15 +6209,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/sonarr/config"
+          "bind": "/docker/sonarr/config"
         },
         {
           "container": "/tv",
-          "bind": "/Users/hugo/docker/sonarr/tv"
+          "bind": "/docker/sonarr/tv"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/sonarr/downloads"
+          "bind": "/docker/sonarr/downloads"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6235,13 +6235,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6255,7 +6255,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/sqlitebrowser/config"
+          "bind": "/docker/sqlitebrowser/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6273,13 +6273,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6353,7 +6353,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/swag/config"
+          "bind": "/docker/swag/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6403,13 +6403,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6428,15 +6428,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/syncthing/config"
+          "bind": "/docker/syncthing/config"
         },
         {
           "container": "/data1",
-          "bind": "/Users/hugo/docker/syncthing/data1"
+          "bind": "/docker/syncthing/data1"
         },
         {
           "container": "/data2",
-          "bind": "/Users/hugo/docker/syncthing/data2"
+          "bind": "/docker/syncthing/data2"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6455,13 +6455,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6475,7 +6475,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/syslog-ng/config"
+          "bind": "/docker/syslog-ng/config"
         },
         {
           "container": "/var/log",
@@ -6497,13 +6497,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6517,7 +6517,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/tautulli/config"
+          "bind": "/docker/tautulli/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6555,13 +6555,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6575,7 +6575,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/thelounge/config"
+          "bind": "/docker/thelounge/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6593,13 +6593,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6649,15 +6649,15 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/transmission/config"
+          "bind": "/docker/transmission/config"
         },
         {
           "container": "/downloads",
-          "bind": "/Users/hugo/docker/transmission/downloads"
+          "bind": "/docker/transmission/downloads"
         },
         {
           "container": "/watch",
-          "bind": "/Users/hugo/docker/transmission/watch"
+          "bind": "/docker/transmission/watch"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6675,13 +6675,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6701,11 +6701,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/tvheadend/config"
+          "bind": "/docker/tvheadend/config"
         },
         {
           "container": "/recordings",
-          "bind": "/Users/hugo/docker/tvheadend/recordings"
+          "bind": "/docker/tvheadend/recordings"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6723,13 +6723,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6749,19 +6749,19 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/ubooquity/config"
+          "bind": "/docker/ubooquity/config"
         },
         {
           "container": "/books",
-          "bind": "/Users/hugo/docker/ubooquity/books"
+          "bind": "/docker/ubooquity/books"
         },
         {
           "container": "/comics",
-          "bind": "/Users/hugo/docker/ubooquity/comics"
+          "bind": "/docker/ubooquity/comics"
         },
         {
           "container": "/files",
-          "bind": "/Users/hugo/docker/ubooquity/files"
+          "bind": "/docker/ubooquity/files"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6780,13 +6780,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6822,7 +6822,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/unifi-controller/config"
+          "bind": "/docker/unifi-controller/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6840,13 +6840,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6859,11 +6859,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/webgrabplus/config"
+          "bind": "/docker/webgrabplus/config"
         },
         {
           "container": "/data",
-          "bind": "/Users/hugo/docker/webgrabplus/data"
+          "bind": "/docker/webgrabplus/data"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -6882,13 +6882,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6920,7 +6920,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/webtop/config"
+          "bind": "/docker/webtop/config"
         },
         {
           "container": "/var/run/docker.sock",
@@ -6942,13 +6942,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -6998,11 +6998,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/wikijs/config"
+          "bind": "/docker/wikijs/config"
         },
         {
           "container": "/data",
-          "bind": "/Users/hugo/docker/wikijs/data"
+          "bind": "/docker/wikijs/data"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -7020,13 +7020,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -7088,7 +7088,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/wireguard/config"
+          "bind": "/docker/wireguard/config"
         },
         {
           "container": "/lib/modules",
@@ -7111,13 +7111,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -7131,7 +7131,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/wireshark/config"
+          "bind": "/docker/wireshark/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -7149,13 +7149,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -7169,7 +7169,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/xbackbone/config"
+          "bind": "/docker/xbackbone/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -7187,13 +7187,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -7249,13 +7249,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -7269,7 +7269,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/yq/config"
+          "bind": "/docker/yq/config"
         }
       ],
       "restart_policy": "unless-stopped"
@@ -7287,13 +7287,13 @@
         {
           "name": "PUID",
           "label": "PUID",
-          "default": "501",
+          "default": "1000",
           "description": "for UserID"
         },
         {
           "name": "PGID",
           "label": "PGID",
-          "default": "20",
+          "default": "1000",
           "description": "for GroupID"
         },
         {
@@ -7307,7 +7307,7 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/Users/hugo/docker/znc/config"
+          "bind": "/docker/znc/config"
         }
       ],
       "restart_policy": "unless-stopped"
